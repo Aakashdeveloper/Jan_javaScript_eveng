@@ -11,13 +11,15 @@ Ecma 7
 > variable
 > Operations
 > String
-> String literals
 > Math
+////////////////////
+> github
+> String literals
 > localstorage
 > sessionStorage
 > cookies
+
 > condition
-> github
 > if else
 > ternery Operations
 > switch

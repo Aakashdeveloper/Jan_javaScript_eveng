@@ -67,4 +67,115 @@ city.slice(1)
 city.slice(2,5)
 "ste"
 
-Github
+slice(start,end)
+substring(start,end)
+substr(start,length)
+
+var city = "Amsterdam"
+city.slice(1)
+"msterdam"
+city.substring(1)
+"msterdam"
+city.substr(1)
+"msterdam"
+
+var city = "Amsterdam"
+undefined
+city.slice(2,5)
+"ste"
+city.substring(2,5)
+"ste"
+city.substr(2,5)
+"sterd"
+
+
+var city = "Amsterdam"
+city.slice(-1)
+"m"
+var city = "Amsterdam"
+city.slice(-2)
+"am"
+var city = "Amsterdam"
+city.slice(2)
+"sterdam"
+
+var city = "Amsterdam"
+city.substring(-1)
+"Amsterdam"
+var city = "Amsterdam"
+city.substring(1)
+"msterdam"
+var city = "Amsterdam"
+city.substring(-2)
+"Amsterdam"
+
+var city = "Amsterdam"
+city.substring(-1,2)
+"Am"
+var city = "Amsterdam"
+city.substring(-1,4)
+"Amst"
+var city = "Amsterdam"
+city.substring(4,-1)
+"Amst"
+var city = "Amsterdam"
+city.substring(-4,-1)
+""
+var city = "Amsterdam"
+city.slice(-4,-1)
+"rda"
+var city = "Amsterdam"
+city.slice(-2,-1)
+"a"
+var city = "Amsterdam"
+city.slice(-1,-2)
+""
+
+
+var data = "i am learning javascript"
+data.replace('javascript','JS')
+"i am learning JS"
+
+var data = "javascript i am learning javascript"
+
+data.replace('javascript','JS')
+"JS i am learning javascript"
+
+data.replace(/javascript/g,'JS')
+
+
+var name = "   Aakash . "
+name.replace(/ /g,'')
+
+name.replace(/ /g,'').toUpperCase()
+"AAKASH."
+
+var url = "https://github.com/Aakashdeveloper/jan_node_mrng"
+undefined
+url.split('/')
+(5) ["https:", "", "github.com", "Aakashdeveloper", "jan_node_mrng"]
+url.split('/')[4]
+"jan_node_mrng"
+var a = url.split('/')
+undefined
+a[a.length-1]
+"jan_node_mrng"
+a
+(5) ["https:", "", "github.com", "Aakashdeveloper", "jan_node_mrng"]
+a.length
+5
+
+var a = "javascript"
+a.split('')
+(10) ["j", "a", "v", "a", "s", "c", "r", "i", "p", "t"]
+a.toString()
+"j,a,v,a,s,c,r,i,p,t"
+var out  = a.toString()
+undefined
+out.replace(/,/g,'')
+"javascript"
+var a =954067097
+undefined
+a.split('')
+a.toString().split('')
+(9) ["9", "5", "4", "0", "6", "7", "0", "9", "7"]
