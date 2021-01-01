@@ -59,6 +59,7 @@ Math.log(0)
 -Infinity
 
 Math.floor(Math.random()*(max-min))+min
+
 Math.floor(Math.random()*(50-1))+1
 
 Math.floor(Math.random()*(49))+1
