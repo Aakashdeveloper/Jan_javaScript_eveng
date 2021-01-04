@@ -17,15 +17,15 @@ Ecma 7
 > localstorage
 > sessionStorage
 > cookies
-////////////////////
 > condition
 > if else
 > ternery Operations
-> switch
 > Date
+////////////////////
+> switch
 > array
-> regex
 > let, const
+> regex
 > loops
 > Functions
 > Es6
