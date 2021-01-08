@@ -21,24 +21,26 @@ Ecma 7
 > if else
 > ternery Operations
 > Date
-////////////////////
 > switch
 > array
 > let, const
 > regex
+////////////////////
 > loops
 > Functions
 > Es6
     > maps,filter
 > Hoisting
 > Clousers
+
 > Transpile
 > import export
 > package.JSON
 > npm
 > object 
 > JSON
-> this 
+> this
+
 > Prototypes
 Es6
     > classes
@@ -51,9 +53,9 @@ Es6
 > currenyConvertor
 > promis
 > async await
+
 > screen
 > Dynamic DropDown
-
 > Weather application
 > ajax
 > Baisc Jquery

@@ -171,11 +171,10 @@ a.split('')
 a.toString()
 "j,a,v,a,s,c,r,i,p,t"
 var out  = a.toString()
-undefined
 out.replace(/,/g,'')
 "javascript"
+
 var a =954067097
-undefined
 a.split('')
 a.toString().split('')
 (9) ["9", "5", "4", "0", "6", "7", "0", "9", "7"]
