@@ -25,14 +25,13 @@ Ecma 7
 > array
 > let, const
 > regex
-////////////////////
 > loops
 > Functions
 > Es6
     > maps,filter
 > Hoisting
 > Clousers
-
+///////////////////
 > Transpile
 > import export
 > package.JSON
