@@ -31,18 +31,18 @@ Ecma 7
     > maps,filter
 > Hoisting
 > Clousers
-///////////////////
 > Transpile
 > import export
 > package.JSON
 > npm
-> object 
 > JSON
+///////////////////
+> object 
 > this
-
 > Prototypes
 Es6
     > classes
+
 > DoM
 > Calc
 > Geolocation
@@ -70,4 +70,7 @@ Monday    8:00pm
 Wednesday 8:00pm
 Friday    8:00pm
 
-Saturday  7:00pm
+
+npm init -y
+
+npm i @babel/core @babel/preset-env @babel/register
