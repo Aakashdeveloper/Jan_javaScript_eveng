@@ -6,6 +6,7 @@ var moviename1 = "Jab We Met";
 var movieRating1 = 4.8;
 var movielang1 = "Hindi";
 
+//literal notation
 var movies = {
     name:'Avengers',
     rating:4.5,
